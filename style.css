@@ -1,7 +1,19 @@
-p{
-	text-align: center;
-}
 body{
 	background-color: black;
 	color: white;
 }
+p{
+	text-align: center;
+}
+
+em strong{
+		color: #ff0000;
+}
+h1{
+	color: #0000ff;
+}
+
+#banner {
+    width: 100%;
+}
+
