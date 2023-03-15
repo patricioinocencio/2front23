@@ -16,4 +16,10 @@ h1{
 #banner {
     width: 100%;
 }
-
+.items{
+	font-style: italic;
+	list-style: none;
+}
+#beneficios { 
+	width: 100%
+}
