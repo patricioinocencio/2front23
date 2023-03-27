@@ -1,0 +1,13 @@
+body{
+    background-color: #fafafa;
+}
+nav li{
+    display: inline-block;
+}
+nav lia{
+    text-decoration: nome; 
+    color: #000;
+    font-size: 22px; 
+    font-weight: bold;
+    text-transform: uppercase;
+}
