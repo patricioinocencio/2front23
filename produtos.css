@@ -1,13 +1,26 @@
-body{
+ body{
     background-color: #fafafa;
 }
 nav li{
     display: inline-block;
 }
-nav lia{
-    text-decoration: nome; 
+nav li a{
+    text-decoration: none; 
     color: #000;
     font-size: 22px; 
     font-weight: bold;
     text-transform: uppercase;
 }
+.content{
+    width: 940px;
+    margin:0 auto;
+}
+nav{
+    float:right;
+    margin-top: 70px;
+}
+.content{
+    width: 940px;
+    margin: 0 auto;
+}
+
