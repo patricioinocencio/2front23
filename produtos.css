@@ -1,12 +1,14 @@
  body{
-    background-color: #fafafa;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
 }
 nav li{
     display: inline-block;
+    padding: 4px;
 }
 nav li a{
     text-decoration: none; 
-    color: #000;
+    color: #000000;
     font-size: 22px; 
     font-weight: bold;
     text-transform: uppercase;
@@ -22,5 +24,28 @@ nav{
 .content{
     width: 940px;
     margin: 0 auto;
+}
+
+header{
+    padding: 20px 0;
+    background-color: #d8d8d8;
+}
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+}
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.produtos .preco{
+    font-size: 22px;
+    font-weight: bold;
+
+}
+.produto .desc{
+    font-size: 18px;
 }
 
