@@ -1,37 +1,32 @@
- body{
+body{
     background-color: #000000;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
 }
 nav li{
     display: inline-block;
-    padding: 4px;
+    padding: 10px;
 }
 nav li a{
-    text-decoration: none; 
-    color: #ffffff;
-    font-size: 22px; 
+    text-decoration: none;
+    color: #002fff;
+    font-size: 22px;
     font-weight: bold;
     text-transform: uppercase;
+}
+nav a:hover{
+    color: #000000;
+}
+header{
+    background: #ffffff;
+    padding: 20px;
 }
 .content{
     width: 940px;
     margin:0 auto;
 }
 nav{
-    float:right;
-    margin-top: 70px;
-}
-.content{
-    width: 940px;
-    margin: 0 auto;
-}
-
-header{
-    padding: 20px 0;
-    background-color: #9b9b9b;
-}
-main{
-    background-color: #000000;
+    float: right;
+    margin-top: 60px;
 }
 .produtos li{
     transition: 0.5s;
@@ -39,25 +34,21 @@ main{
     text-align: center;
     width: 30%;
     vertical-align: top;
-    border-radius: 10px;
-    border: 2px solid rgb(31, 30, 117);
+    border: 2px solid #0004ff;
+    border-radius: 60px;
     margin: 0 1%;
-    padding: 20px 0;
+    margin-top: 60px;
+}
+.produtos li{
+    transition: 0.5s;
+    display: inline-block;
+    text-align: center;
+    padding: 30px 0;
 }
 .produtos li:hover{
-    border-color: rgb(0, 0, 0);
+    border-color: #ffffff;
     transform: scale(1.05);
 }
-nav a:hover{
-    color: aqua;
-}
-nav li:hover{
-    transform: scale(1.05);
-}
-.produtos li:active{
-    color: #b3ff00;
-}
-
 .produtos h2{
     font-size: 30px;
     font-weight: bold;
@@ -65,9 +56,43 @@ nav li:hover{
 .produtos .preco{
     font-size: 22px;
     font-weight: bold;
+}
+.produtos li:active{
+    border-color: #ffffff;
+}
+.produtos li:hover h2{
+    font-size: 30px;
+}
+footer{
+    text-align: center;
+    background-color: #ffffff;
+    color: #000;
+    padding: 30px;
+}
+main{
+    margin-bottom: 90px;
+    text-align: center;
+    font-size: 26px;
+}
+
+h1{
+    font-size: 36px;
+    padding: 10px;
 
 }
-.produto .desc{
-    font-size: 18px;
+form{
+    margin: 40px 0 q;
 }
-
+label{
+    font-size: 25px;
+    width: 100px;
+}
+input{
+    padding: 10px 25px;
+    width: 50%
+}
+button{
+    display: inline-block;
+    width:150px;
+    padding: 10px;
+}
