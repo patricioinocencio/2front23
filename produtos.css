@@ -8,7 +8,7 @@ nav li{
 }
 nav li a{
     text-decoration: none;
-    color: #002fff;
+    color: #080808;
     font-size: 22px;
     font-weight: bold;
     text-transform: uppercase;
@@ -19,6 +19,10 @@ nav a:hover{
 header{
     background: #ffffff;
     padding: 20px;
+    color: aliceblue;
+}
+li a:hover{
+    color: rgb(119, 0, 255);
 }
 .content{
     width: 940px;
@@ -34,7 +38,7 @@ nav{
     text-align: center;
     width: 30%;
     vertical-align: top;
-    border: 2px solid #0004ff;
+    border: 2px solid #ffffff;
     border-radius: 60px;
     margin: 0 1%;
     margin-top: 60px;
@@ -65,13 +69,13 @@ nav{
 }
 footer{
     text-align: center;
-    background-color: #ffffff;
-    color: #000;
+    background-color: #000000;
+    color: #ffffff;
     padding: 30px;
 }
 main{
     margin-bottom: 90px;
-    text-align: center;
+    
     font-size: 26px;
 }
 
@@ -95,4 +99,12 @@ button{
     display: inline-block;
     width:150px;
     padding: 10px;
+}
+form label, form p{
+     display: block;
+     font-size: 20px;
+     margin: 10px 0 10px;
+}
+form label{
+    width: 200px;
 }
